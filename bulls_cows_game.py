@@ -70,6 +70,7 @@ while secret_number != guessed_number:
         elif secret_number.find(guessed_number[i]) != -1:
             cows += '|'
 
+    # print compared result
     hist_rounds = hist_rounds.append(
         {
             'round': round,
